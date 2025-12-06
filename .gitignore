@@ -1,0 +1,25 @@
+# Node/Vite/React
+node_modules/
+dist/
+*.log
+*.tmp
+.eslintcache
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Editor/OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Backend data
+backend/database.db
+backend/**/*.sqlite
+
+# Coverage/outputs
+coverage/
+*.coverage
